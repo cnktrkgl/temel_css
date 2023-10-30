@@ -1,1 +1,2 @@
-# temel_css
+# Temel CSS
+Temel CSS çalışmaları
