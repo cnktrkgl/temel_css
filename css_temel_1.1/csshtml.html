@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="style" href="cssstyle.css">
+        <style>
+            h1 {color: blue;}
+            body {background-color: white;}
+            div {
+                border: 1px solid black;
+                margin-top: 100px;
+                margin-left: 100px;
+                margin-right: 200px;
+                margin-bottom: 100px;
+                padding: 25px;
+                padding-left: 25px;
+                padding-top: 25px;
+                padding-bottom: 25px;
+                padding-right: 25px;
+                background-color: gray;
+            }
+            table, th, td {
+                border: 1px solid black;
+            }
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+            th {
+                height: 30px;
+                text-align: left;
+            }
+            td {
+                height: 40px;
+                vertical-align: center;
+                text-align: left;
+                padding-left: 10px;
+            }
+            tr:hover {
+                background-color: gray;
+            }
+            tr:nth-child(even){
+                background-color: blue;
+            }
+            tr:nth-child(odd){
+                background-color: red;
+            }
+        </style> <!-- css kodları style etiketlerinin arasına yazılır. ölçeklendirme yani elementte boşluk bırakmada top ve left daha baskındır -->
+        <!-- margin elementin diğer elementlerle arasındaki boşluğu ayarlar-padding elementin çerçevesiyle olan boşluğu ayarlar tek padding:25px her tarafa olan uzaklık -->
+    </head>
+    <body>
+        <h1 style="background-color: red">Hello World</h1>
+        <div>
+            Engin Demiroğ Engin Demiroğ Engin Demiroğ Engin Demiroğ Engin Demiroğ<br>
+            Engin Demiroğ Engin Demiroğ Engin Demiroğ Engin Demiroğ<br>
+            Engin Demiroğ Engin Demiroğ Engin Demiroğ Engin Demiroğ Engin Demiroğ<br>
+            Engin Demiroğ Engin Demiroğ<br>
+            Engin Demiroğ Engin Demiroğ Engin Demiroğ Engin Demiroğ Engin Demiroğ
+        </div>
+        <table>
+            <tr>
+                <th>Ad</th>
+                <th>Soyad</th>
+                <th>Şehir</th>
+            </tr>
+            <tr>
+                <td>Engin</td>
+                <td>Demiroğ</td>
+                <td>Ankara</td>
+            </tr>
+            <tr>
+                <td>Salih</td>
+                <td>Demiroğ</td>
+                <td>İstanbul</td>
+            </tr>
+            <tr>
+                <td>Engin</td>
+                <td>Demiroğ</td>
+                <td>Ankara</td>
+            </tr>
+            <tr>
+                <td>Engin</td>
+                <td>Demiroğ</td>
+                <td>Ankara</td>
+            </tr>
+            <tr>
+                <td>Engin</td>
+                <td>Demiroğ</td>
+                <td>Ankara</td>
+            </tr>
+        </table>
+    </body>
+</html>

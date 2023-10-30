@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            input[type=text], input[type=password] {
+                width: 100%;
+                padding: 10px;
+                border: 1px solid green;
+                border-radius: 3px;
+                border-bottom: 3px solid red;
+                color: white;
+                background-color: #3c3ccc;
+            }
+            input[type=text]:focus, input[type=password]:focus {
+                background-color: lightblue;
+            }
+            .myClass {
+                color: red;
+                background-color: blue;
+            }
+            p.someClass {
+                color: white;
+                background-color: blue;
+            }
+            #email {
+                background-color: black;
+            }
+        </style>
+    </head>
+    <!-- cssde class tanımlarken . ile .className diye yazılır -->
+    <!-- cssde id tanımlarken # ile #idNmae diye yazılır -->
+    <body>
+        Ad : <input type="text">
+        Email : <input id="email" type="text">
+        Şifre : <input type="password">
+        <input type="submit">
+        <h1 class="myClass">Engin Demiroğ</h1>
+        <p class="someClass">Bu bir paragraf</p>
+    </body>
+</html>
