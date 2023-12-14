@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    text-decoration: line-through;
+    background: #ebe645;
+}
+.true {
+    text-decoration: none;
+    background: #344cb7;
+}
