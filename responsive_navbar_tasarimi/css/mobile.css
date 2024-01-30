@@ -1,0 +1,13 @@
+.navbar {
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar .links {
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar .links a {
+    margin-bottom: 10px;
+}
